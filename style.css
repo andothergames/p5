@@ -5,11 +5,22 @@
 
 body {
   margin: 0 20px;
-  padding: 0;
+  padding-bottom:60px;
+  background-color:rgb(1, 19, 92);
+  font-family: orator;
 }
 
-main {
-  background-color: antiquewhite;
+a {
+  text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  color:hotpink;
+}
+
+main, .container {
+  /* background-color: antiquewhite; */
   margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -17,10 +28,16 @@ main {
   width: 100%;
 }
 
+.container img {
+  margin: 0 auto;
+  padding: 20px 0;
+
+}
+
 h1 {
-  font-family: orator;
   font-size: 20px;
-  color: deeppink;
+  color: #ffffff;
+  margin: 40px 0 0 40px;
 }
 .p5Canvas {
   margin: 0 auto;
@@ -35,3 +52,9 @@ h1 {
   display: none;
 }
 
+footer p {
+  color:white;
+  text-align: right;
+  margin-left:auto;
+  margin-right:40px;
+}
